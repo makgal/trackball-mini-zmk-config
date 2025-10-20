@@ -97,7 +97,10 @@
 &trackball { cpi = <1000>; };
 
 &trackball_listener {
-    input-processors = <&zip_xy_scaler 9 20>;
+    mouse_movement {
+        layers = <0>;
+        input-processors = <&zip_xy_scaler 9 20>;
+    };
 
     scroller {
         layers = <1>;
