@@ -121,7 +121,7 @@
 
     adjust {
         layers = <3>;
-        input-processors = <&zip_xy_scaler 1 8>
+        input-processors = <&zip_xy_scaler 1 8>;
         process-next;
     };
 };
