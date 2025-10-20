@@ -70,7 +70,7 @@
 
         scroll {
             bindings = <
-&mo 0  &mo 0
+&mo 4  &mo 4
             >;
 
             display-name = "Scroll";
@@ -91,6 +91,13 @@
 
             label = "Adjust";
         };
+
+        base_2 {
+            display-name = "Base";
+            bindings = <
+&mkp MB1  &mkp MB3
+            >;
+        };
     };
 };
 
@@ -107,9 +114,7 @@
             <&zip_xy_to_scroll_mapper>;
     };
 
-    mouse_movement {
-        layers = <0>;
-    };
+    mouse_movement { layers = <0>; };
 
     sniper {
         layers = <2>;
