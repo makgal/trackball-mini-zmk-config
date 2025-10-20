@@ -93,7 +93,6 @@
         };
 
         base_2 {
-            display-name = "Base";
             bindings = <
 &mkp MB1  &mkp MB3
             >;
@@ -104,7 +103,11 @@
 &trackball { cpi = <1000>; };
 
 &trackball_listener {
-    input-processors = <&zip_xy_scaler 9 20>;
+    input-processors = <&zip_xy_scaler 8 20>;
+
+    mouse_movement_when_scroll{
+            layers = <4>; 
+    };
 
     scroller {
         layers = <1>;
@@ -113,8 +116,6 @@
             <&zip_xy_scaler 1 32>,
             <&zip_xy_to_scroll_mapper>;
     };
-
-    mouse_movement { layers = <0>; };
 
     sniper {
         layers = <2>;
