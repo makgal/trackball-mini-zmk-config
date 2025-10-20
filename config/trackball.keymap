@@ -47,7 +47,7 @@
         base_combo {
             bindings = <&adj_td>;
             key-positions = <0 1>;
-            layers = <0 1 2>;
+            layers = <0>;
         };
 
         adj_combo {
