@@ -77,7 +77,7 @@
 
         scroll {
             bindings = <
-&mo 4  &mo 4
+&mo 5  &mo 4
             >;
 
             display-name = "Scroll";
@@ -104,7 +104,14 @@
 &left_middle_right  &left_middle_right
             >;
 
-            display-name = "Base";
+            display-name = "Base_2";
+        };
+
+        scroll_fast {
+            display-name = "Scroll_fast";
+            bindings = <
+&none  &none
+            >;
         };
     };
 };
