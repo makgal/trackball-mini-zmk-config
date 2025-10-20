@@ -101,7 +101,6 @@
 
     mouse_movement {
         layers = <0>;
-        input-processors = <>;
         process-next;
     };
 
