@@ -70,7 +70,7 @@
 
         scroll {
             bindings = <
-&trans  &trans
+&none  &none
             >;
 
             display-name = "Scroll";
